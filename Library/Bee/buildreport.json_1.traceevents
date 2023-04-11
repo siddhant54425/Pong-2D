@@ -1,0 +1,631 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1678214228742376, "dur": 1261840, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214228742794, "dur": 4244, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214228747040, "dur": 44106, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214228791148, "dur": 656586, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214229447737, "dur": 554835, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214230002574, "dur": 1640, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214230004779, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1678214229273063, "dur": 158689, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229273936, "dur": 40171, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229414090, "dur": 4848, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229418944, "dur": 12793, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229419967, "dur": 11038, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229436539, "dur": 1258, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1678214229435630, "dur": 2202, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214230005698, "dur": 268, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678214229487105, "dur":1070, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229488187, "dur":85, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678214229488306, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678214229488321, "dur":618, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678214229488965, "dur":668, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229489633, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229986766, "dur":683, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987450, "dur":134, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987584, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987591, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987642, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987646, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987654, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987655, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987661, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987662, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987669, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987670, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987674, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987676, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987681, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987683, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987689, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987691, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987697, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987699, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987704, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987706, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987711, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987714, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987720, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987722, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987729, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987731, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987736, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987737, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987742, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987744, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987749, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987773, "dur":6, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229987814, "dur":2084, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678214229489019, "dur":625, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229489646, "dur":2226, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229491886, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678214229491894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229492817, "dur":430, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678214229493263, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678214229493315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229493882, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1678214229498317, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678214229498376, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229499654, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1678214229502766, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678214229502806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229502811, "dur":80624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678214229583452, "dur":129212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229712674, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229712687, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229714018, "dur":73263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229787296, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229787315, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229788622, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229788920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229788934, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229790348, "dur":77437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229867799, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229867812, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229872024, "dur":3378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229875409, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229875424, "dur":20578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678214229896031, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678214229896067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229896076, "dur":9383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1678214229905496, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678214229905524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678214229905568, "dur":14722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1678214229920340, "dur":66415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229489039, "dur":608, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229489648, "dur":2367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229492015, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678214229492043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229502880, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1678214229505814, "dur":277345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678214229783169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229783181, "dur":7742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1678214229790951, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229791341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229791359, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229794002, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229794471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229794485, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229797773, "dur":74785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229872570, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229872589, "dur":5298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229877913, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229878298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229878306, "dur":13494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678214229891827, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1678214229892355, "dur":75, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229893218, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1678214229895949, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678214229896005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229896009, "dur":11899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678214229907960, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1678214229907991, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229908015, "dur":10541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1678214229918599, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678214229918646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678214229918726, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678214229926584, "dur":60242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229489109, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229489668, "dur":2293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229491962, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1678214229492339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229499494, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1678214229510899, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1678214229510945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229511200, "dur":9849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1678214229521075, "dur":95611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229616694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229616705, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229618305, "dur":56325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229674637, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229674646, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229676006, "dur":74526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229750542, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229750558, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229752401, "dur":39727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229792139, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229792154, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229793573, "dur":174019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229967629, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678214229967680, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678214229969826, "dur":17044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229489102, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229489660, "dur":2334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229491995, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678214229492022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229502976, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678214229504401, "dur":124925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229629331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229629640, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229631510, "dur":135933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229767455, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229767473, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229769190, "dur":108567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229877763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229877772, "dur":8644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229886473, "dur":11255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229897732, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678214229897742, "dur":33367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678214229931150, "dur":55701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229489144, "dur":527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229489672, "dur":2278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229491951, "dur":39162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678214229531123, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229531139, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678214229533039, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229533540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229533978, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229535340, "dur":136232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229671581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229671594, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229672874, "dur":66092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229738983, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229739007, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229740896, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229741240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229741253, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229742957, "dur":36953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229779928, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229779948, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229783260, "dur":98402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229881685, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229881724, "dur":9419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229891176, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229891521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229891534, "dur":5997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678214229897584, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1678214229897618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229897632, "dur":22066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1678214229919726, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1678214229919761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678214229919780, "dur":6877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1678214229926681, "dur":60202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229489174, "dur":504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229489678, "dur":2237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229491916, "dur":148505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678214229640445, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229640463, "dur":9847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678214229650339, "dur":106730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229757084, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229757102, "dur":27087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229784217, "dur":67453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229851678, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229851689, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229854692, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229855252, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229855263, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229857843, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229859150, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229859169, "dur":7340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229866538, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229866957, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229866970, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229870769, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229871165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229871174, "dur":5729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229876931, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229877318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229877333, "dur":5127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229882486, "dur":1231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229883725, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229883744, "dur":8184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678214229891948, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1678214229891977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229891999, "dur":5619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1678214229897660, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1678214229898219, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229898235, "dur":9797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1678214229908064, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1678214229908098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229908106, "dur":9016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1678214229917155, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1678214229917173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678214229917186, "dur":7985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1678214229925203, "dur":61546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678214229489215, "dur":469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678214229489684, "dur":2240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678214229491925, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1678214229492186, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678214229503877, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1678214229505443, "dur":441317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678214229946766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678214229946773, "dur":38230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678214229985026, "dur":1801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229489248, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229489690, "dur":2210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229491900, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678214229491947, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229503871, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1678214229505212, "dur":143658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229648880, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229648920, "dur":16684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229665627, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229665965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229665971, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229667195, "dur":88544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229755752, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229755769, "dur":6551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229762349, "dur":126589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229888947, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229888970, "dur":6960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678214229895953, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1678214229895975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229895990, "dur":5892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1678214229901931, "dur":30035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1678214229931981, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678214229932000, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1678214229933748, "dur":53194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229489281, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229489698, "dur":2199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229491897, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1678214229491940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229499470, "dur":41822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1678214229541319, "dur":87981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229629308, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229629321, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229632014, "dur":48891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229680920, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229680941, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229683189, "dur":44658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229727858, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229727878, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229730949, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229731354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229731487, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229733052, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229733413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229733424, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229735150, "dur":52206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229787413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229787418, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229788887, "dur":81490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229870393, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229870413, "dur":7628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229878060, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229878536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229878542, "dur":8718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229887306, "dur":1620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229888947, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229888970, "dur":7188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678214229896186, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1678214229896216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678214229896224, "dur":28354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1678214229924617, "dur":62256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229489318, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229489703, "dur":2176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229491886, "dur":17178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1678214229509077, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229509093, "dur":24105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1678214229533211, "dur":114501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229647723, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229647740, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229650376, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229651096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229651106, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229653936, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229654318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229654329, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229656897, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229657501, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229657517, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229659394, "dur":42012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229701416, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229701431, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229702756, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229702978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229702988, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229707936, "dur":110314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229818260, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229818277, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229821413, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229821769, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229821832, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229825074, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229825522, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229825542, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229828559, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229828932, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229828948, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229831325, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229831770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229831776, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229834485, "dur":89876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229924383, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678214229924416, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678214229928487, "dur":58392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229489345, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229489709, "dur":2167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229491887, "dur":108781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1678214229600675, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229600685, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1678214229602324, "dur":35353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229637685, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229637698, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229641042, "dur":105049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229746110, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229746139, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229748549, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229748854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229748863, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229750678, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229751079, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229751088, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229752715, "dur":79734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229832457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229832519, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229835138, "dur":109370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229944514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678214229944523, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678214229945489, "dur":41353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229489377, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229489714, "dur":2299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229492015, "dur":128460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1678214229620484, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229620502, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1678214229622840, "dur":129445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229752829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229752845, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229754707, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229755366, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229755379, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229762361, "dur":49432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229811809, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229811825, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229814916, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229815325, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229815341, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229817446, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229817756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229817765, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229821153, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229821457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229821472, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229823487, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229824195, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229824227, "dur":4356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229828621, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229828940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229828950, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229831450, "dur":1098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229832554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229832561, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229837417, "dur":147672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229985096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678214229985107, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678214229986636, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1678214229986647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229489415, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229489719, "dur":2158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229491887, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1678214229492097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229503127, "dur":29887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1678214229533038, "dur":52600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229585646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229585685, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229587422, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229587762, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229587820, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229589775, "dur":119065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229708852, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229708872, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229711060, "dur":63614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229774679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229774686, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229776542, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229777173, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229777189, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229781259, "dur":1965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229783228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229783234, "dur":4273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229787529, "dur":64803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229852348, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229852362, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229854442, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229854798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229854811, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229857156, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229857768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229857781, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229861531, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229862085, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229862097, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229864370, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229864876, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229864895, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229867005, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229867216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229867221, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229871436, "dur":1370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229872811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229872820, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229877532, "dur":1633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229879174, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229879189, "dur":12288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229891495, "dur":38622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229930136, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1678214229931344, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1678214229933260, "dur":53638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229489452, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229489724, "dur":2151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229491887, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1678214229492017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229502944, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1678214229504386, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1678214229504421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229504430, "dur":5700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1678214229510158, "dur":56886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d.exe" }}
+,{ "pid":12345, "tid":14, "ts":1678214229567050, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229567059, "dur":7448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d.exe" }}
+,{ "pid":12345, "tid":14, "ts":1678214229574533, "dur":151075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229725628, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229725649, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229727646, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229728046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229728056, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229731839, "dur":52682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229784528, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229784542, "dur":15681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229800256, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229800877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229800893, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229803243, "dur":2205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229805542, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229805562, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229808695, "dur":1068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229809777, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229809791, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229813118, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229813625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229813637, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229816702, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229817473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229817487, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229821417, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229821723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229821729, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229825059, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229825694, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229825706, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229829332, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229829495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229829500, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229831799, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229832117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229832127, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229834430, "dur":102861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229937314, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1678214229937343, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":14, "ts":1678214229939936, "dur":46985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229489487, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229489729, "dur":2145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229491887, "dur":128995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1678214229620892, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229621256, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1678214229623289, "dur":68259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229691565, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229691586, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229693249, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229693521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229693533, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229695177, "dur":55372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229750605, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229750616, "dur":7574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229758216, "dur":110545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229868775, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229868790, "dur":14935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229883760, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229884169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229884182, "dur":11924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1678214229896152, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1678214229896179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229896186, "dur":8612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1678214229904861, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1678214229904903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229904928, "dur":15282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1678214229920246, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1678214229920742, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1678214229920758, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1678214229925369, "dur":61378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229489522, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229489735, "dur":2293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229492028, "dur":51355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1678214229543392, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229543406, "dur":27160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1678214229570588, "dur":85011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229655607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229655617, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229656763, "dur":1562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229658335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229658346, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229662964, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229663265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229663277, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229664418, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229664641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229664651, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229665792, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229665986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229665989, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229666962, "dur":66817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229733782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229733789, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229735642, "dur":38832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229774484, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229774499, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229776546, "dur":45832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229822384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229822395, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229825662, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229825932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229825940, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229829241, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229829483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229829490, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229831489, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229831757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229831774, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229834064, "dur":836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229834908, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229834926, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229837502, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229837748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229837764, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229839238, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229839585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229839602, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229842298, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229842893, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229842915, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229845117, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229845327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229845365, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229846592, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229846924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229846938, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229848381, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229848701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229848716, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229850691, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229851151, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229851171, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229853510, "dur":4356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229857870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229857876, "dur":12684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229870584, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229870988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229871001, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229875086, "dur":3301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229878436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229878443, "dur":18147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1678214229896629, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Glowing Pong Game/pong 2d_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1678214229896671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1678214229896676, "dur":31753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Glowing Pong Game/pong 2d_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1678214229928499, "dur":58397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678214229991846, "dur":1945, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1678214230006022, "dur": 647, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1678214230004757, "dur": 1950, "ph": "X", "name": "Write chrome-trace events", "args": {} },
